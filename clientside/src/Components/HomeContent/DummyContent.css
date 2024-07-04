@@ -1,0 +1,36 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: translateY(-10px) scale(1.1);
+    filter: hue-rotate(90deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+
+
+/* .image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    color: brown;
+  }
+  
+  .image-container:hover img {
+    transform: translateY(-10px) rotate(160deg);
+    filter: hue-rotate(180deg);
+  }
+   */

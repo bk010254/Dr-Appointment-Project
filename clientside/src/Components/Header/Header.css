@@ -1,0 +1,56 @@
+.headerContainer {
+    background-color: #0798BC;
+    padding: 1rem 0;
+}
+
+.headerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.headerTitle {
+    color: #FFF;
+    font-size: 1.1rem;
+    flex: 1 1 60%;
+}
+
+.headerTitle span {
+    color: red;
+    font-weight: bolder;
+}
+
+.headerIconSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 40%;
+}
+
+.headerIconSection h1 {
+    color: #FFF;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.ambIcon {
+    color: white;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .headerTitle, .headerIconSection {
+        flex: 1 1 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .headerIconSection {
+        margin-top: 1rem;
+    }
+}

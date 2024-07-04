@@ -1,0 +1,29 @@
+
+.carousel-item img {
+  width: 100%;
+  height: auto; /* Ensures the image maintains aspect ratio */
+  max-height: 500px; /* Set your desired maximum height */
+  object-fit: cover; /* Ensures the image covers the element without stretching */
+  
+}
+
+.carousel {
+  width: 100%;
+}
+.blur {
+  filter: blur(1px); /* Adjust the blur intensity as needed */
+}
+
+.caption-left {
+  position: absolute;
+  left: 20px; /* Adjust the left position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+ 
+  padding: 20px;
+  border-radius: 5px;
+}
+.caption-left h3, p{
+  color: black;
+  font-weight: bolder;
+}

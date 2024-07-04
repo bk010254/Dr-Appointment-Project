@@ -1,0 +1,28 @@
+.colapdiv{
+  justify-content: flex-end;
+  margin-left: 50px;
+}
+
+.signupButton{
+  background-color: blue;
+  color: blanchedalmond;
+  margin-right: 50px;
+}
+.brandIcon{
+  margin-left: 330px;
+}
+@media (max-width: 500px) {
+  .brandIcon{
+    margin-left: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .brandIcon{
+    margin-left: 17px;
+  }
+}
+@media (max-width: 900px) {
+  .brandIcon{
+    margin-left: 17px;
+  }
+}
